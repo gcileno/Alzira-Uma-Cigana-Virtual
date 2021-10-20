@@ -37,7 +37,7 @@ void  telaPrincipal ( void ) {
     printf ( " /// /// \ n " );
     printf ( " /// = = = = = Sistema Tarot da Cigana Alzira = = = = = /// \ n " );
     printf ( " /// /// \ n " );
-    printf ( " /// 1. Cadastro do jogado /// \ n " );
+    printf ( " /// 1. Cadastro do jogador /// \ n " );
     printf ( " /// 2. Jogar cartas /// \ n " );
     printf ( " /// 3. Jogar cartas sem cadastro /// \ n " );
     printf ( " /// 0. Sair /// \ n " );
