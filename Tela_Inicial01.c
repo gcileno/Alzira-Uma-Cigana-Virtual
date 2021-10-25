@@ -20,6 +20,9 @@ void telaEquipe(void);
 int main(void) {
     telaSobre();
     telaPrincipal();
+    telaCadastro();
+    telaEscolhacarta();
+    telareusltado();
     telaEquipe();
     return 0;
 }
@@ -79,7 +82,35 @@ void telaPrincipal(void) {
     printf("\n");
 }
 
-
+void telaCadastro(void) {
+    printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Digite seu nome                                              ///\n");
+    printf("///            Digite o dia de nascimento                                   ///\n");
+    printf("///            Digite o mes de nascimento                                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+}
+void telaEscolhacarta(void){
+    printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
+    printf("///            *nome do usuario                                             ///\n");
+    printf("///            Seu signo é *signo                                           ///\n");
+    printf("///            Agora digite o numero para escolhoer uma carta               ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            1                2               3                           ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+}
+void telareusltado(void){
+    printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
+    printf("///            *nome do usuario                                             ///\n");
+    printf("///            Seu signo é *signo                                           ///\n");
+    printf("///            Interessante, a carta que vc escolheu foi: *nome da carta    ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Descrição do significado da carta                            ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+}
 
 void telaEquipe(void) {
     printf("\n");
