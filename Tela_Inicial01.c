@@ -78,7 +78,6 @@ void telaPrincipal(void) {
     printf("///            = = = = = Sistema de Tarot da cigana Alzira = = = = =        ///\n");
     printf("///                                                                         ///\n");
     printf("///            1. Cadastro Jogador                                          ///\n");
-    printf("///            2. Jogar Cartas                                              ///\n");
     printf("///            3. Jogar Cartas sem Cadastro                                 ///\n");
     printf("///                                                                         ///\n");
     printf("///            0. Sair                                                      ///\n");
@@ -106,11 +105,12 @@ void telaEscolhacarta(void){
     printf("///            através da carta selecionada                                 ///\n");
     printf("///                                                                         ///\n");
     printf("///            Digite o numero da carta que você deseja tirar:              ///\n");
+    printf("///            Digite '0' para sair da mesa e voltar ao menu:               ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
 }
 
 void baralho (void){
-    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("/////////////////////////////////////////////////////////////////////////////////\n");
     printf(
         "///                  _         _         _         _         _         _         ///\n"
         "///                 | |       | |       | |       | |       | |       | |        ///\n"
@@ -127,10 +127,12 @@ void baralho (void){
         "///                       _         _         _         _                        ///\n"
         "///                      | |       | |       | |       | |                       ///\n"
         "///                      |_|       |_|       |_|       |_|                       ///\n"
-        "///                       19        20        21        22                       ///\n")
-    printf("///////////////////////////////////////////////////////////////////////////////\n");;
+        "///                       19        20        21        22                       ///\n"
+    )
+    printf("/////////////////////////////////////////////////////////////////////////////////\n");;
 }
 void telareusltado(void){
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
     printf("///            *nome do usuario                                             ///\n");
     printf("///            Seu signo é *signo                                           ///\n");
@@ -138,6 +140,8 @@ void telareusltado(void){
     printf("///                                                                         ///\n");
     printf("///            Descrição do significado da carta                            ///\n");
     printf("///                                                                         ///\n");
+    printf("///            Digite '1' para voltar a tela inicial                        ///\n");
+    printf("///            Digite '0' para sair da mesa e fechar o programa             ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
 }
 
