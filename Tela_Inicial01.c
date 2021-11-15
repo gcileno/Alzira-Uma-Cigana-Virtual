@@ -78,22 +78,29 @@ void telaPrincipal(void) {
     printf("///            = = = = = Sistema de Tarot da cigana Alzira = = = = =        ///\n");
     printf("///                                                                         ///\n");
     printf("///            1. Cadastro Jogador                                          ///\n");
-    printf("///            2. Jogar Cartas                                              ///\n");
-    printf("///            3. Jogar Cartas sem Cadastro                                 ///\n");
+    printf("///            2. Tirar cartas com a sigana                                 ///\n");
+    printf("///            3. Sair                                                      ///\n");
     printf("///                                                                         ///\n");
-    printf("///            0. Sair                                                      ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
 }
+void telalogin(void);
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
+    printf("///                                                                         ///\n");
+    printf("///            Digite seu acesso:                                           ///\n");
+    printf("///            Digite a senha:                                              ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
 
 void telaCadastro(void) {
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
     printf("///                                                                         ///\n");
-    printf("///            Digite seu nome                                              ///\n");
-    printf("///            Digite o dia de nascimento                                   ///\n");
-    printf("///            Digite o mes de nascimento                                   ///\n");
+    printf("///            Digite seu nome:                                             ///\n");
+    printf("///            Digite o dia de nascimento:                                  ///\n");
+    printf("///            Digite o mes de nascimento:                                  ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
 }
