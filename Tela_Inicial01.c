@@ -8,6 +8,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
+#include <cadastroplayer.c>
 
 /////
 // Assinatura das funções
@@ -19,17 +20,34 @@ void telaEscolhacarta(void);
 void telareusltado(void);
 void baralho(void);
 
+
+/////
+// Variaiveis
+
+int escolhaMenu;
+
 /////
 // Programa principal
-int main(void) {
-    telaSobre();
+int main(void) { 
     telaPrincipal();
-    telaCadastro();
-    telaEscolhacarta();
-    baralho();
-    telareusltado();
-    telaEquipe();
-    return 0;
+  switch ( escolhaMenu ){ 
+    case 1 :
+      telaCadastro();
+      cadastro();
+    break;
+    
+    case 2 :
+      telalogin();
+    break;
+    
+    case 0 :
+      printf ("Adeus, que os astros guiem seu destino!\n");
+    break;
+
+    default :
+      printf ("Escolha invalida.\n");
+  }  
+  return 0;
 }
 
 /////
@@ -85,7 +103,7 @@ void telaPrincipal(void) {
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
 }
-void telalogin(void);
+void telalogin(void){
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
     printf("///                                                                         ///\n");
@@ -93,6 +111,9 @@ void telalogin(void);
     printf("///            Digite a senha:                                              ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
+    /* telaEscolhacarta(); */
+
+}    
 
 void telaCadastro(void) {
     printf("///////////////////////////////////////////////////////////////////////////////\n");
@@ -103,6 +124,7 @@ void telaCadastro(void) {
     printf("///            Digite o mes de nascimento:                                  ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
+    /* if (telaCadastro()){telalogin()}; */
 }
 void telaEscolhacarta(void){
     printf("///////////////////////////////////////////////////////////////////////////////\n");

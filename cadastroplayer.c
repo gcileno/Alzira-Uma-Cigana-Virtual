@@ -10,6 +10,8 @@ int cadastro (void) {
     scanf("%d", &mes);
     printf("Olá, %s ", nome);
     printf("seu signo é: ");
+    telalogin();
+
     return (0);
 };
 
