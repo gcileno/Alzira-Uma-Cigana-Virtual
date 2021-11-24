@@ -55,10 +55,8 @@ int main(void) {
 
 
 
-
-
 void telaPrincipal(void) {
-    system
+    limpar();
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
