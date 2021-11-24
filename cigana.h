@@ -6,4 +6,5 @@ void telaEscolhacarta(void);
 void telareusltado(void);
 void baralho(void);
 void limpar (void);
+void cadastro(void);
 
