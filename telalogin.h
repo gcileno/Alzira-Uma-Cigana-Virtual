@@ -4,8 +4,5 @@ void telaEquipe(void);
 void telaCadastro(void);
 void telaEscolhacarta(void);
 void telareusltado(void);
-void baralho(void);
-void limpar (void);
-void cadastro(void);
 void telalogin(void);
-
+void baralho(void);
