@@ -1,0 +1,5 @@
+int chartoint(char); //Transforma char para inteiro
+char inttochar(int); //Transforma inteiro para char
+void telaCadastro(void); //Função que cadastra um jogador
+char * signo(int, int); //Função que retorna o signo de acordo com a data de nascimento do usuário
+void limpar (void); // limpaa tela das funções, colocar no inicio da função
