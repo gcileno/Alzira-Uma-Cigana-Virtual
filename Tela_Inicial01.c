@@ -50,29 +50,7 @@ int main(void) {
   return 0;
 }
 
-/////
-// Funções
 
-
-
-
-  
-
-
-
-}
-void telaEscolhacarta(void){
-    printf("///////////////////////////////////////////////////////////////////////////////\n");
-    printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
-    printf("///            *nome do usuario                                             ///\n");
-    printf("///            Seu signo é *signo                                           ///\n");
-    printf("///            Agora medite um pouco sobre o que você deseja                ///\n");
-    printf("///            saber sobre seu futuro e o universo irá responder            ///\n");
-    printf("///            através da carta selecionada                                 ///\n");
-    printf("///                                                                         ///\n");
-    printf("///            Digite o numero da carta que você deseja tirar:              ///\n");
-    printf("///////////////////////////////////////////////////////////////////////////////\n");
-}
 
 void baralho (void){
     printf(
