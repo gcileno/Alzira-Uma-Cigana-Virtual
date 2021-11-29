@@ -21,4 +21,6 @@ void telaEscolhacarta(void){
     printf("///                                                                         ///\n");
     printf("///            Digite o numero da carta que você deseja tirar:              ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
+    baralho();
+
 }
