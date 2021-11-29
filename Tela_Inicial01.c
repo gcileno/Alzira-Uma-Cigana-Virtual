@@ -58,15 +58,7 @@ int main(void) {
 
   
 
-void telaCadastro(void) {
-    printf("///////////////////////////////////////////////////////////////////////////////\n");
-    printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
-    printf("///                                                                         ///\n");
-    printf("///            Digite seu nome:                                             ///\n");
-    printf("///            Digite o dia de nascimento:                                  ///\n");
-    printf("///            Digite o mes de nascimento:                                  ///\n");
-    printf("///                                                                         ///\n");
-    printf("///////////////////////////////////////////////////////////////////////////////\n");
+
 
 }
 void telaEscolhacarta(void){
