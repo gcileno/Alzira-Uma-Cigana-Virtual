@@ -10,6 +10,7 @@ void cadastro(void);
 void telalogin(void);
 
 void telaCadastro(void) {
+    limpar();
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
     printf("///                                                                         ///\n");
