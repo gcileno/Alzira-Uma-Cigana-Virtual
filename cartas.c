@@ -36,3 +36,32 @@ char cartas [22][15][2048] = {
   devida firmeza, afinal de contas a verdadeira força é aquela que exercemos sobre nós mesmos.A despeito 
   de todas as tentações que você terá para agir como uma criança mimada, será cobrada de você uma postura 
   adulta.Conselho: Procure lidar melhor com a própria raiva."},
+
+  {"O Eremita", "O arcano IX, chamado “O Eremita”, emerge como arcano conselheiro para este momento de sua 
+  vida, sugerindo um momento em que você precisará agir com o máximo de maturidade e paciência possíveis.
+  Você precisará aprender a respeitar o “tempo certo” neste momento de sua existência e perceberá que será
+  preciso bater mais do que uma vez na mesma porta até que ela se abra.Nem sempre o rio corre mais rápido
+  apenas porque queremos! Três virtudes serão fundamentais neste momento de sua vida: a paciência
+  (para lidar com as diferenças), a prudência (a fim de jamais confiar inteiramente em ninguém)
+  e a persistência (para compreender que, no que diz respeito ao amor, muitas vezes é preciso bater
+  várias vezes numa mesma porta).O momento pede circunspeção, meditação e capacidade de espera.
+  Você poderá mudar muitas coisas que lhe incomodam, se você souber observar o tempo certo, mas
+  precisará também ter humildade para entender que nem tudo é possível. Ao aceitar os limites,
+  evoluímos como pessoas.Conselho: Momento de cultivar a paciência, tudo tem seu tempo certo."},
+  
+  {"A Justiça", "O arcano VIII do Tarot, chamado “A Justiça”, emerge como arcano conselheiro para
+  este seu momento em particular, lembrando a importância da reflexão fria e analítica em relação
+  aos fatos do mundo.Há momentos em que de nada adianta reagir emocionalmente às circunstâncias,
+  em que é melhor se recolher e avaliar as coisas a partir de uma perspectiva mais fria, mais elevada.
+  O importante, no momento, é julgar da forma mais imparcial possível. Procure ao máximo agir de maneira
+  diplomática neste momento. Você vai precisar, pois o momento assim exige.As circunstâncias poderão
+  ficar bem difíceis e a tentação de agir de uma maneira impulsiva será muito grande. Segure a onda!
+  Conselho: Mantenha uma postura reflexiva diante dos fatos da vida."},
+
+  {"A Temperança", "A empatia nada mais é do que a capacidade, muitas vezes que nasce da simples boa
+  vontade, de se colocar no lugar do outro e compreender as coisas a partir do ponto de vista alheio.
+  Vivemos, em geral, voltados demais para nossas próprias perspectivas e carecemos de uma avaliação
+  mais fiel, justa e sensível da realidade das pessoas que estão ao nosso redor. Cultive uma postura
+  mais compreensiva e a recompensa virá na forma de amor, simpatia e colaboração. Você sofrerá testes
+  claros em sua paciência, mas não deverá fracassar. Conselho: A necessidade de agir com harmonia entre
+  razão e emoção."},
