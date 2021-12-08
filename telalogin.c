@@ -14,9 +14,10 @@ void telalogin(void){
     printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
     printf("///                                                                         ///\n");
     printf("///            Digite seu acesso:                                           ///\n");
+    scanf();
     printf("///            Digite a senha:                                              ///\n");
+    scanf();
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
-    /* telaEscolhacarta(); */
-
+    //fazer função para confirmar acesso ao sistema e aplicar return permitindo ou não.
 }  

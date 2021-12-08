@@ -9,6 +9,7 @@ void limpar (void);
 void cadastro(void);
 void telalogin(void);
 
+
 char cartas [22][15][2048] = {
   {"O Mago: ", "O arcano maior chamado “O Mago” brotou do Tarot como um conselho para este particular
     momento, gabriel. Ele vem sugerir a necessidade de uma quebra de rotina, experimentação de novas ideias,
@@ -19,7 +20,7 @@ char cartas [22][15][2048] = {
     entendimento das coisas. É como se, agora, as coisas que você fosse ouvir (provavelmente da boca de
     gente que você nem esperava!) lhe permitissem uma libertação de uma forma antiga e superada de 
     abordar as situações. Aproveite este dinâmico período!Conselho: Momento de renovar, de fazer 
-    diferente."},
+    diferente"},
 
   {"O Imperador","O conselho emitido pelo Tarot vem através da imagem do arcano IV, chamado “O Imperador”,
     cuja imagem nos revela uma figura masculina solidamente colocada, irradiando poder e autoridade.

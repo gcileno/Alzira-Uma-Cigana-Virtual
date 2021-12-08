@@ -8,3 +8,4 @@ void baralho(void);
 void limpar (void);
 void cadastro(void);
 void telalogin(void);
+char signo(int,int);

@@ -1,16 +1,19 @@
+//declarção das funções
 void telaSobre(void);
 void telaPrincipal(void);
 void telaEquipe(void);
 void telaCadastro(void);
-void telaEscolhacarta(void);
+int telaEscolhacarta(void);
 void telareusltado(void);
 void baralho(void);
 void limpar (void);
 void cadastro(void);
 void telalogin(void);
 
-void telaEscolhacarta(void){
+int telaEscolhacarta(void){
+    int esc[2];
     limpar();
+    baralho();
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
     printf("///            *nome do usuario                                             ///\n");
@@ -21,6 +24,6 @@ void telaEscolhacarta(void){
     printf("///                                                                         ///\n");
     printf("///            Digite o numero da carta que você deseja tirar:              ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
-    baralho();
-
+    scanf();
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
 }
