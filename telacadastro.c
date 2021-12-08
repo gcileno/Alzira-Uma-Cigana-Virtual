@@ -14,8 +14,10 @@ void telaCadastro(void) {
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///            = = = = = Tarot da cigana Alzira = = = = =                   ///\n");
     printf("///                                                                         ///\n");
-    printf("///            Digite seu nome:                                             ///\n");
-    printf("///            Digite o dia de nascimento:                                  ///\n");
-    printf("///            Digite o mes de nascimento:                                  ///\n");
-    printf("///                                                                         ///\n");
+    printf("///           Para a cigana conseguir entrar em contato com os astros       ///\n");
+    printf("///           precisamos de algumas informações,                            ///\n");
+    printf("///           digite seus dados verdadeiro, pois sabemos                    ///\n");
+    printf("///           precisamos ser honestos com os astros.                        ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
+    cadastro();
+}

@@ -6,3 +6,4 @@ void telaEscolhacarta(void);
 void telareusltado(void);
 void telalogin(void);
 void baralho(void);
+char signo(int,int);
