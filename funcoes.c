@@ -22,8 +22,14 @@ void cNome(void){
 
 //criar função confirma dia
 
-void cDia(void){
-
+void cDia(int){
+  int dia[2];
+  if ((dia >= 1) && (dia <= 31)){
+    return 1;
+  }
+  else{
+    return cDia();
+  }
 }
 
 //criar funçao confirma mes
