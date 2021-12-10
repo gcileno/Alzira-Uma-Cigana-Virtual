@@ -22,7 +22,7 @@ void cNome(void){
 
 //criar função confirma dia
 
-void cDia(int){
+void cDia(int dia){
   int dia[2];
   if ((dia >= 1) && (dia <= 31)){
     return 1;
@@ -33,7 +33,15 @@ void cDia(int){
 }
 
 //criar funçao confirma mes
-void cMes(void){
+int cMes(int mes){
+  int mes[2];
+  if ((mes >= 1) && (mes <= 12)){
+    return 1;
+  }
+  else{
+    return cMes();
+  }
+}
 
 }
 
@@ -46,16 +54,6 @@ void voltar(void){
 }
 
 
-
-void limpar(void) {
-  if (system("clear") || system("cls")) {
-    // limpa a tela, Linux, Mac e Windows
-    // adaptado de flavius
-  }
-}
-
-
-
 int cadastro (void) {
     //função para caputrar os dados do usuário
     int dia, mes;
@@ -66,7 +64,7 @@ int cadastro (void) {
     scanf("%d", &dia); 
     printf(" Digite o mês de seu nascimento:   \n");
     scanf("%d", &mes);
-    return (0);
+    return ();
 };
 
 
