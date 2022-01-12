@@ -4,7 +4,6 @@ void telaCigana(void);
 void telaCigana(){
     limpar();
     printf("\n");
-
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
     printf("///            = = = = = Sistema de Tarot da cigana Alzira = = = = =        ///\n");
