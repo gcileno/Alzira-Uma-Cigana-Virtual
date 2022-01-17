@@ -9,11 +9,15 @@ struct Usuario {
     char ulCarta;
 };
 
+struct Usuario user;
+
 struct Cigana{
     char nome;
     char sobrenome;
     char especialidade;
-}
+};
+
+struct Cigana userCigana;
 
 struct Relatorios{
     int cartas;
@@ -21,4 +25,6 @@ struct Relatorios{
     int ciganas;
     int tiradas;
     int previ;
-}
+};
+
+struct Relatorios rel;
