@@ -43,8 +43,6 @@ int cMes(int mes){
   }
 }
 
-}
-
 //criar função de navegação (voltar telas)
 void voltar(void){
   char escolha[1];
@@ -53,24 +51,11 @@ void voltar(void){
   }
 }
 
+char* signo (int dia , int mes){
+  char r_signo[12];
+  char* meu_signo;
+  int tam;
 
-int cadastro (void) {
-    //função para caputrar os dados do usuário
-    int dia, mes;
-    char nome[200];
-    printf("Digite seu nome: \n");
-    scanf("%s",nome);
-    printf(" Digite o dia de seu nascimento:   \n");
-    scanf("%d", &dia); 
-    printf(" Digite o mês de seu nascimento:   \n");
-    scanf("%d", &mes);
-    return ();
-};
-
-
-
-char signo (int dia , int mes){
-  char r_signo[10];
   /// função para identificar o sgino do usuário a partir da data de nascimento
   if ((dia >= 21 && mes == 3) || (dia <= 20 && mes == 4)){
     strcpy(r_signo, "Aries");
@@ -108,5 +93,8 @@ char signo (int dia , int mes){
   else if ((dia >= 19 && mes == 2)||(dia <= 20 && mes == 3)){
     strcpy(r_signo,"Peixes");
   }
-  return r_signo;  
+  tam = strlen(r_signo);
+  meu_signo = (char*) malloc(tam*sizeof(char));
+  strcpy(meu_signo, r_signo);
+  return meu_signo;  
 };
