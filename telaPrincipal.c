@@ -1,3 +1,14 @@
+#include<stdio.h>
+#include<estruturas.c>
+
+
+void telaCadastro(void);
+void telaPrincipal(void);
+void telalogin(void);
+
+
+
+
 void telaPrincipal(void) {
     limpar();
     printf("\n");
@@ -21,7 +32,7 @@ void telaPrincipal(void) {
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
-}
+};
 
 void telalogin(void){
     limpar();
@@ -36,3 +47,22 @@ void telalogin(void){
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     //fazer função para confirmar acesso ao sistema e aplicar return permitindo ou não.
 };
+
+void telaCadastro(void){
+    Usuario* user;
+    limpar();
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///            = = = = = Sistema de Tarot da cigana Alzira = = = = =        ///\n");
+    printf("///            Digite seu nome:                                             ///\n");
+    scanf("%d[^\n]", user.nome);
+    printf("///            Digite seu sobrenome:                                        ///\n");
+    scanf("%d[^\n]", user.sobrenome);
+    printf("///            Digite seu cpf:                                              ///\n");
+    scanf("%c[^\n]", user.sobrenome);
+    printf("///            Digite o dia de nascimento:                                  ///\n");
+    scanf("%c[^\n]", user.sobrenome);
+    printf("///                                                                         ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("\n");

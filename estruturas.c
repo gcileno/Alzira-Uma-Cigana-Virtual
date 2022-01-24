@@ -3,7 +3,7 @@
 struct Usuario {
     char* nome;
     char* sobrenome;
-    long int* cpf;
+    long int cpf;
     int* dNasc;
     int* mNasc;
     char* ulCarta;
