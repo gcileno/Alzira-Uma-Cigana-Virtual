@@ -7,6 +7,10 @@
 //assinaturas
 
 void moduloUsur(void);
+void meuSigno(void);
+
+
+//funções do módulo
 
 void moduloUsur(void){
     limpar();
@@ -21,5 +25,9 @@ void moduloUsur(void){
     printf("///             6 - Sair do perfil                                          ///\n");
     printf("///                                                                         ///\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
+    do{
+        int op;
+        
+    }
 
 }
