@@ -24,3 +24,5 @@ void telaSobre(void) {
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("\n");
 }
+
+// https://github.com/flgorgonio/linguasolta_2020.2

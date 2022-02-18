@@ -5,12 +5,12 @@
 #include<funcoes.c>
 #include<stdio.h>
 #include<stdlib.h>
+#include<estruturas.h>
 
 //assinaturas
 
 void moduloUsur(void);
 void cadUser(void);
-void meuSigno(void);
 
 
 //funções do módulo
@@ -46,5 +46,45 @@ void moduloUsur(void){
 }
 
 void cadUser(void){
-    FILE *arq = fopen{}
+    FILE *arq; 
+    Usuario* user;
+    arq = fopen("dados.b","wb");
+    if (fp == NULL) {
+    printf("Erro na criacao do arquivo\n!");
+        exit(1);
+        }
+    arq = user();
+    fwrite(arq, sizeof(Aluno), 1, fp);
+    fclose(fp);
+    free(aluno);
+return 0;
+}
+
+Usuario* user (void){
+    Usuario* user;
+    user = (Usuario*) malloc(sizeof(Usuario));
+    limpar();
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///             Antes de começar, preciso saber mais de você                ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+    printf("///                                                                         ///\n");
+    printf("///             Vou fazer algumas perguntas antes de tirar                  ///\n");
+    printf("///             sua carta e ver sua sorte.                                  ///\n");
+    printf("///                                                                         ///\n");
+    printf("///////////////////////////////////////////////////////////////////////////////\n");
+
+    printf("///             Informe seu nome:                                           ///\n");
+    scanf("%ld", user->nome);
+    getchar();
+    printf("///             Informe seu cpf:                                            ///\n");
+    scanf(" %80[^\n]", user->cpf);
+    getchar();
+    printf("///             Informe o dia que nasceu:                                   ///\n");
+    scanf("%d[^\n]", &user->dNasc);
+    printf("///             Informe o mes que nasceu:                                   ///\n");
+    scanf("%d[^\n]", &user->mNasc);
+    user->signo = signo(dNasc,mNasc);
+
+    aln->status = 'm';
+return aln;
 }
