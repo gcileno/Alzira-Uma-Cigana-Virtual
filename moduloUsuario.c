@@ -11,6 +11,7 @@
 
 void moduloUsur(void);
 void cadUser(void);
+Usuario* user (void);
 
 
 //funções do módulo
@@ -20,8 +21,8 @@ void moduloUsur(void){
     printf("\n");
     printf("///////////////////////////////////////////////////////////////////////////////\n");
     printf("///                                                                         ///\n");
-    printf("///             1 - Consultar ultima carta retirada                         ///\n");
-    printf("///             2 - Consultar meu signo                                     ///\n");
+    printf("///             1 - Cadastrar Usuario                                       ///\n");
+    printf("///             2 - Consultar usuario                                       ///\n");
     printf("///             3 - Tirar carta                                             ///\n");
     printf("///             4 - Meu perfil                                              ///\n");
     printf("///             5 - Excluir perfil                                          ///\n");
@@ -31,7 +32,7 @@ void moduloUsur(void){
     do{
         int op;
         switch (op){
-            case 1: 
+            case 1: cadUser();
             case 2:
             case 3:
             case 4:
@@ -48,15 +49,15 @@ void moduloUsur(void){
 void cadUser(void){
     FILE *arq; 
     Usuario* user;
-    arq = fopen("dados.b","wb");
+    arq = fopen("dados.dat","ab");
     if (fp == NULL) {
     printf("Erro na criacao do arquivo\n!");
         exit(1);
         }
     arq = user();
-    fwrite(arq, sizeof(Aluno), 1, fp);
+    fwrite(arq, sizeof(Usuario), 1, fp);
     fclose(fp);
-    free(aluno);
+    free(user);
 return 0;
 }
 
@@ -85,6 +86,6 @@ Usuario* user (void){
     scanf("%d[^\n]", &user->mNasc);
     user->signo = signo(dNasc,mNasc);
 
-    aln->status = 'm';
-return aln;
+    user->status = 'm';
+return user;
 }
